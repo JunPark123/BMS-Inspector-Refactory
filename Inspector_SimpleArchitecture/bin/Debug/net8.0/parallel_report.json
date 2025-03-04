@@ -1,0 +1,163 @@
+{
+  "TotalTests": 5,
+  "PassCount": 3,
+  "FailCount": 2,
+  "TotalDuration": 11.8870858,
+  "TestResults": [
+    {
+      "TestId": "V002",
+      "TestName": "\uC800\uC804\uC555 \uCD9C\uB825 \uD14C\uC2A4\uD2B8",
+      "Success": true,
+      "ErrorMessage": null,
+      "StartTime": "2025-03-04T17:11:43.5093297+09:00",
+      "EndTime": "2025-03-04T17:11:44.6519413+09:00",
+      "Duration": "00:00:01.1426116",
+      "Steps": [
+        {
+          "Name": "\uCD08\uAE30\uD654",
+          "Success": true,
+          "Message": "\uCD08\uAE30\uD654 \uC644\uB8CC"
+        },
+        {
+          "Name": "\uC2E4\uD589",
+          "Success": true,
+          "Message": "\uC2E4\uD589 \uC644\uB8CC"
+        },
+        {
+          "Name": "\uAC80\uC99D",
+          "Success": true,
+          "Message": "\uAC80\uC99D \uC131\uACF5"
+        },
+        {
+          "Name": "\uC815\uB9AC",
+          "Success": true,
+          "Message": "\uC815\uB9AC \uC644\uB8CC"
+        }
+      ]
+    },
+    {
+      "TestId": "V001",
+      "TestName": "\uAE30\uBCF8 \uC804\uC555 \uCD9C\uB825 \uD14C\uC2A4\uD2B8",
+      "Success": true,
+      "ErrorMessage": null,
+      "StartTime": "2025-03-04T17:11:43.5073319+09:00",
+      "EndTime": "2025-03-04T17:11:44.8452357+09:00",
+      "Duration": "00:00:01.3379038",
+      "Steps": [
+        {
+          "Name": "\uCD08\uAE30\uD654",
+          "Success": true,
+          "Message": "\uCD08\uAE30\uD654 \uC644\uB8CC"
+        },
+        {
+          "Name": "\uC2E4\uD589",
+          "Success": true,
+          "Message": "\uC2E4\uD589 \uC644\uB8CC"
+        },
+        {
+          "Name": "\uAC80\uC99D",
+          "Success": true,
+          "Message": "\uAC80\uC99D \uC131\uACF5"
+        },
+        {
+          "Name": "\uC815\uB9AC",
+          "Success": true,
+          "Message": "\uC815\uB9AC \uC644\uB8CC"
+        }
+      ]
+    },
+    {
+      "TestId": "C001",
+      "TestName": "\uAE30\uBCF8 \uC804\uB958 \uCD9C\uB825 \uD14C\uC2A4\uD2B8",
+      "Success": true,
+      "ErrorMessage": null,
+      "StartTime": "2025-03-04T17:11:43.5094834+09:00",
+      "EndTime": "2025-03-04T17:11:44.8452618+09:00",
+      "Duration": "00:00:01.3357784",
+      "Steps": [
+        {
+          "Name": "\uCD08\uAE30\uD654",
+          "Success": true,
+          "Message": "\uCD08\uAE30\uD654 \uC644\uB8CC"
+        },
+        {
+          "Name": "\uC2E4\uD589",
+          "Success": true,
+          "Message": "\uC2E4\uD589 \uC644\uB8CC"
+        },
+        {
+          "Name": "\uAC80\uC99D",
+          "Success": true,
+          "Message": "\uAC80\uC99D \uC131\uACF5"
+        },
+        {
+          "Name": "\uC815\uB9AC",
+          "Success": true,
+          "Message": "\uC815\uB9AC \uC644\uB8CC"
+        }
+      ]
+    },
+    {
+      "TestId": "CAN001",
+      "TestName": "BMS \uC0C1\uD0DC \uC694\uCCAD \uD14C\uC2A4\uD2B8",
+      "Success": false,
+      "ErrorMessage": null,
+      "StartTime": "2025-03-04T17:11:43.5100133+09:00",
+      "EndTime": "2025-03-04T17:11:47.529715+09:00",
+      "Duration": "00:00:04.0197017",
+      "Steps": [
+        {
+          "Name": "\uCD08\uAE30\uD654",
+          "Success": true,
+          "Message": "\uCD08\uAE30\uD654 \uC644\uB8CC"
+        },
+        {
+          "Name": "\uC2E4\uD589",
+          "Success": true,
+          "Message": "\uC2E4\uD589 \uC644\uB8CC"
+        },
+        {
+          "Name": "\uAC80\uC99D",
+          "Success": false,
+          "Message": "\uAC80\uC99D \uC2E4\uD328"
+        },
+        {
+          "Name": "\uC815\uB9AC",
+          "Success": true,
+          "Message": "\uC815\uB9AC \uC644\uB8CC"
+        }
+      ]
+    },
+    {
+      "TestId": "CAN002",
+      "TestName": "\uBC30\uD130\uB9AC SOC \uC694\uCCAD \uD14C\uC2A4\uD2B8",
+      "Success": false,
+      "ErrorMessage": null,
+      "StartTime": "2025-03-04T17:11:43.5187539+09:00",
+      "EndTime": "2025-03-04T17:11:47.5698442+09:00",
+      "Duration": "00:00:04.0510903",
+      "Steps": [
+        {
+          "Name": "\uCD08\uAE30\uD654",
+          "Success": true,
+          "Message": "\uCD08\uAE30\uD654 \uC644\uB8CC"
+        },
+        {
+          "Name": "\uC2E4\uD589",
+          "Success": true,
+          "Message": "\uC2E4\uD589 \uC644\uB8CC"
+        },
+        {
+          "Name": "\uAC80\uC99D",
+          "Success": false,
+          "Message": "\uAC80\uC99D \uC2E4\uD328"
+        },
+        {
+          "Name": "\uC815\uB9AC",
+          "Success": true,
+          "Message": "\uC815\uB9AC \uC644\uB8CC"
+        }
+      ]
+    }
+  ]
+}

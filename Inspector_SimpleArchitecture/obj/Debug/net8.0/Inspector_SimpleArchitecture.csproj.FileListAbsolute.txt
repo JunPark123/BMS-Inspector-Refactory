@@ -1,0 +1,14 @@
+C:\Users\user\source\repos\Inspector_NewArchitecture\Inspector_SimpleArchitecture\bin\Debug\net8.0\Inspector_SimpleArchitecture.exe
+C:\Users\user\source\repos\Inspector_NewArchitecture\Inspector_SimpleArchitecture\bin\Debug\net8.0\Inspector_SimpleArchitecture.deps.json
+C:\Users\user\source\repos\Inspector_NewArchitecture\Inspector_SimpleArchitecture\bin\Debug\net8.0\Inspector_SimpleArchitecture.runtimeconfig.json
+C:\Users\user\source\repos\Inspector_NewArchitecture\Inspector_SimpleArchitecture\bin\Debug\net8.0\Inspector_SimpleArchitecture.dll
+C:\Users\user\source\repos\Inspector_NewArchitecture\Inspector_SimpleArchitecture\bin\Debug\net8.0\Inspector_SimpleArchitecture.pdb
+C:\Users\user\source\repos\Inspector_NewArchitecture\Inspector_SimpleArchitecture\obj\Debug\net8.0\Inspector_SimpleArchitecture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\Inspector_NewArchitecture\Inspector_SimpleArchitecture\obj\Debug\net8.0\Inspector_SimpleArchitecture.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\Inspector_NewArchitecture\Inspector_SimpleArchitecture\obj\Debug\net8.0\Inspector_SimpleArchitecture.AssemblyInfo.cs
+C:\Users\user\source\repos\Inspector_NewArchitecture\Inspector_SimpleArchitecture\obj\Debug\net8.0\Inspector_SimpleArchitecture.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Inspector_NewArchitecture\Inspector_SimpleArchitecture\obj\Debug\net8.0\Inspector_SimpleArchitecture.dll
+C:\Users\user\source\repos\Inspector_NewArchitecture\Inspector_SimpleArchitecture\obj\Debug\net8.0\refint\Inspector_SimpleArchitecture.dll
+C:\Users\user\source\repos\Inspector_NewArchitecture\Inspector_SimpleArchitecture\obj\Debug\net8.0\Inspector_SimpleArchitecture.pdb
+C:\Users\user\source\repos\Inspector_NewArchitecture\Inspector_SimpleArchitecture\obj\Debug\net8.0\Inspector_SimpleArchitecture.genruntimeconfig.cache
+C:\Users\user\source\repos\Inspector_NewArchitecture\Inspector_SimpleArchitecture\obj\Debug\net8.0\ref\Inspector_SimpleArchitecture.dll

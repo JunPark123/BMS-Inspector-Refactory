@@ -1,0 +1,14 @@
+C:\Users\user\source\repos\Inspector_NewArchitecture\Inspector_NewArchitecture\bin\Debug\net8.0\Inspector_NewArchitecture.exe
+C:\Users\user\source\repos\Inspector_NewArchitecture\Inspector_NewArchitecture\bin\Debug\net8.0\Inspector_NewArchitecture.deps.json
+C:\Users\user\source\repos\Inspector_NewArchitecture\Inspector_NewArchitecture\bin\Debug\net8.0\Inspector_NewArchitecture.runtimeconfig.json
+C:\Users\user\source\repos\Inspector_NewArchitecture\Inspector_NewArchitecture\bin\Debug\net8.0\Inspector_NewArchitecture.dll
+C:\Users\user\source\repos\Inspector_NewArchitecture\Inspector_NewArchitecture\bin\Debug\net8.0\Inspector_NewArchitecture.pdb
+C:\Users\user\source\repos\Inspector_NewArchitecture\Inspector_NewArchitecture\obj\Debug\net8.0\Inspector_NewArchitecture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\Inspector_NewArchitecture\Inspector_NewArchitecture\obj\Debug\net8.0\Inspector_NewArchitecture.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\Inspector_NewArchitecture\Inspector_NewArchitecture\obj\Debug\net8.0\Inspector_NewArchitecture.AssemblyInfo.cs
+C:\Users\user\source\repos\Inspector_NewArchitecture\Inspector_NewArchitecture\obj\Debug\net8.0\Inspector_NewArchitecture.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Inspector_NewArchitecture\Inspector_NewArchitecture\obj\Debug\net8.0\Inspector_NewArchitecture.dll
+C:\Users\user\source\repos\Inspector_NewArchitecture\Inspector_NewArchitecture\obj\Debug\net8.0\refint\Inspector_NewArchitecture.dll
+C:\Users\user\source\repos\Inspector_NewArchitecture\Inspector_NewArchitecture\obj\Debug\net8.0\Inspector_NewArchitecture.pdb
+C:\Users\user\source\repos\Inspector_NewArchitecture\Inspector_NewArchitecture\obj\Debug\net8.0\Inspector_NewArchitecture.genruntimeconfig.cache
+C:\Users\user\source\repos\Inspector_NewArchitecture\Inspector_NewArchitecture\obj\Debug\net8.0\ref\Inspector_NewArchitecture.dll
