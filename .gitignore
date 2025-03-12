@@ -1,5 +1,11 @@
 ﻿*/bin
 */obj
 /.vs
-
 /.gitignore
+/Inspector_SimpleArchitecture/bin
+/Inspector_NewArchitecture/obj
+/Inspector_NewArchitecture/bin
+/Inspector_SimpleArchitecture/bin
+/Inspector_SimpleArchitecture/obj
+/Inspector_CurrentJson/bin
+/Inspector_CurrentJson/obj
