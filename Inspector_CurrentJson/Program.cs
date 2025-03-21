@@ -10,7 +10,7 @@ namespace SimplifiedBMSTestFramework
     #region 모델 클래스들
 
     // 전체 테스트 구성을 나타내는 클래스
-    public class TestSuiteConfig
+    public class TestInfoConfig
     {
         public string Model { get; set; }
         public string TestcaseName { get; set; }
@@ -262,6 +262,32 @@ namespace SimplifiedBMSTestFramework
         }
     }
 
+    // 테스트 아이템 팩토리 클래스
+    public static class TestItemFactory
+    {
+        public static TestItem CreateTestItem(TestItemConfig config)
+        {
+            // 하위 클래스 확장 가능
+            return new StandardTestItem(config);
+        }
+    }
+
+    // 기준이 되는 테스트 아이템 구현
+    public class StandardTestItem : TestItem
+    {
+        public StandardTestItem(TestItemConfig config) : base(config) { }
+    }
+
+    public class SpecialTargetItem : TestItem
+    {
+        public SpecialTargetItem(TestItemConfig config) : base(config)
+        {
+
+        }
+    }
+
+
+
     // 테스트 단계 인터페이스
     public interface ITestStep
     {
@@ -420,21 +446,6 @@ namespace SimplifiedBMSTestFramework
         }
     }
 
-    // 테스트 아이템 팩토리 클래스
-    public static class TestItemFactory
-    {
-        public static TestItem CreateTestItem(TestItemConfig config)
-        {
-            // 여기서는 현재 구현이 간단하지만, 필요에 따라 다양한 하위 클래스를 반환할 수 있습니다.
-            return new StandardTestItem(config);
-        }
-    }
-
-    // 표준 테스트 아이템 구현
-    public class StandardTestItem : TestItem
-    {
-        public StandardTestItem(TestItemConfig config) : base(config) { }
-    }
 
     // 테스트 관리자 클래스
     public class TestManager
@@ -442,7 +453,7 @@ namespace SimplifiedBMSTestFramework
         private readonly List<TestResult> _results = new List<TestResult>();
 
         // JSON 파일에서 테스트 구성 로드
-        public TestSuiteConfig LoadTestSuite(string jsonFilePath)
+        public TestInfoConfig LoadTestSuite(string jsonFilePath)
         {
             Console.WriteLine($"테스트 스위트 로드 중: {jsonFilePath}");
 
@@ -452,11 +463,11 @@ namespace SimplifiedBMSTestFramework
                 PropertyNameCaseInsensitive = true
             };
 
-            return JsonSerializer.Deserialize<TestSuiteConfig>(jsonContent, options);
+            return JsonSerializer.Deserialize<TestInfoConfig>(jsonContent, options);
         }
 
         // 테스트 실행 (순차)
-        public void RunSequentially(TestSuiteConfig testSuite)
+        public void RunSequentially(TestInfoConfig testSuite)
         {
             Console.WriteLine($"===== 순차 테스트 실행 시작 ({testSuite.TestItems.Count(x => x.IsUse)}개 테스트) =====");
             _results.Clear();
@@ -564,17 +575,17 @@ namespace SimplifiedBMSTestFramework
     {
         public static void Main(string[] args)
         {
-            // 테스트 구성 JSON 파일 생성
+            // TestCase 불러오기
             CreateSampleTestFile("bms_test_config.json");
 
-            // 테스트 관리자 생성
+            // TestManager
             var testManager = new TestManager();
 
-            // 테스트 구성 로드
+            // TestCase 데이터 포맷에 맞게 역직렬화하기
             var testSuite = testManager.LoadTestSuite("bms_test_config.json");
 
-            // 테스트 실행
             Console.WriteLine("\n테스트 실행 중...");
+            // 테스트 실행
             testManager.RunSequentially(testSuite);
 
             // 결과 출력
